@@ -1,10 +1,13 @@
 print("I like coffee")
 
+#import packages
 import matplotlib.pyplot as plt
 
+#list example
 list01 = [1, 2 , 3, 4]
 list02 = [ 50, 108, 162, 250]
 
+#scatter plot example
 plt.scatter(x = list01, y = list02)
 plt.xlabel("semester")
 plt.ylabel("credits")
