@@ -17,3 +17,5 @@ plt.show()
 
 #https://github.com/ghwcore/BIOS-584/blob/main/Quiz_01.ipynb
 
+list_enemies = ['water', 'purgatory', 'sun',  ]
+
