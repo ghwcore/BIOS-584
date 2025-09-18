@@ -82,7 +82,7 @@ print(np_bmi > 23)
 # plt.savefig('./my_plot.png') # save a copy of the figure to the PyCharm project directory (./ is a relative directory).
 # plt.show()
 
-
+#https://github.com/ghwcore/BIOS-584/blob/main/HW3.ipynb
 
 
 
