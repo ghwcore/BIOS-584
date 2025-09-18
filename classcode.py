@@ -18,8 +18,6 @@ type(bmi)
 x = 5
 print(type(x))
 
-
-
 #list example
 list01 = [1, 2 , 3, 4]
 list02 = [ 50, 108, 162, 250]
@@ -61,6 +59,21 @@ len(list05)
 sorted(list05)
 sorted(list05, reverse=True)
 
+#ARRAY####################################################################
+height = [1.73, 1.68, 1.71, 1.89]
+weight = [65.4, 59.2, 63.6, 88.4]
+
+np_height = np.array(height)
+np_weight = np.array(weight)
+
+np_bmi = np_weight / np_height**2
+print(np_bmi)
+
+#find in index
+print(np_bmi[1])
+#find boolean for each
+print(np_bmi > 23)
+
 #scatter plot example
 # plt.scatter(x = list01, y = list02)
 # plt.xlabel("semester")
@@ -69,9 +82,7 @@ sorted(list05, reverse=True)
 # plt.savefig('./my_plot.png') # save a copy of the figure to the PyCharm project directory (./ is a relative directory).
 # plt.show()
 
-#https://github.com/ghwcore/BIOS-584/blob/main/Quiz_01.ipynb
 
-list_enemies = ['water', 'purgatory', 'sun',  ]
 
 
 
