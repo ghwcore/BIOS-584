@@ -74,6 +74,29 @@ print(np_bmi[1])
 #find boolean for each
 print(np_bmi > 23)
 
+#2d array
+np_2d = np.array([[1.73, 1.68, 1.71, 1.89, 1.79],
+                 [65.4, 59.2,63.6,88.4,68.7]])
+print(np_2d)
+
+#array commands
+
+# avg = np.mean(np_baseball[:,0])
+# print("Average: " + str(avg))
+#
+# # Print median height
+# med = np.median(np_baseball[:, 0])
+# print("Median: " + str(med))
+#
+# # Print out the standard deviation on height
+# stddev = np.std(np_baseball[:, 0])
+# print("Standard Deviation: " + str(stddev))
+#
+# # Print out correlation between first and second column
+# corr = np.corrcoef(np_baseball[:, 0], np_baseball[:, 1])
+# print("Correlation: " + str(corr))
+
+
 #scatter plot example
 # plt.scatter(x = list01, y = list02)
 # plt.xlabel("semester")
@@ -82,7 +105,7 @@ print(np_bmi > 23)
 # plt.savefig('./my_plot.png') # save a copy of the figure to the PyCharm project directory (./ is a relative directory).
 # plt.show()
 
-#https://github.com/ghwcore/BIOS-584/blob/main/HW3.ipynb
+
 
 
 
