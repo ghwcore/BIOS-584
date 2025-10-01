@@ -79,6 +79,35 @@ np_2d = np.array([[1.73, 1.68, 1.71, 1.89, 1.79],
                  [65.4, 59.2,63.6,88.4,68.7]])
 print(np_2d)
 
+#enumerate
+sw_char = ["luke", "han", "obi", "darth", "leia"]
+sw_e = enumerate(sw_char)
+sw_ls = list(sw_e)
+print(sw_ls)
+
+sw_e10 = enumerate(sw_char, start=10)
+sw_ls10 = list(sw_e10)
+print(sw_ls10)
+
+for iter, id_iter in sw_ls10:
+    print(iter, id_iter)
+
+#zip
+avenger = ["spiderman", "ironman", "captain","winter", "thor"]
+zip_ls = zip(avenger, sw_char)
+zsw_ls = list(zip_ls)
+print(zsw_ls)
+
+for z1, z2 in zip(avenger, sw_char):
+    print(z1, z2)
+
+
+
+
+
+
+
+
 #array commands
 
 # avg = np.mean(np_baseball[:,0])
