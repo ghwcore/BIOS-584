@@ -101,7 +101,12 @@ print(zsw_ls)
 for z1, z2 in zip(avenger, sw_char):
     print(z1, z2)
 
-
+###generater function
+def num_sequence(n):
+    i=0
+    while i < n:
+        yield i
+        i += 1
 
 
 
@@ -133,9 +138,4 @@ for z1, z2 in zip(avenger, sw_char):
 # plt.title('Title')
 # plt.savefig('./my_plot.png') # save a copy of the figure to the PyCharm project directory (./ is a relative directory).
 # plt.show()
-
-
-
-
-
 
