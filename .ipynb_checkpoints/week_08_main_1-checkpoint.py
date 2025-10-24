@@ -1,8 +1,6 @@
 # Import your packages, modules, global constants first
 import self_py_fun.week_08_example_fun as ef
 import numpy as np
-from numpy.random import random
-from self_py_fun.week_08_example_fun import *
 
 
 # Call variables
