@@ -108,8 +108,10 @@ def num_sequence(n):
         yield i
         i += 1
 
-
-
+##generator
+lannister = ['cersei', 'jaime', 'tywin', 'tyrion', 'joffrey']
+for person in lannister:
+    print(person)
 
 
 
