@@ -50,7 +50,7 @@ def produce_trun_mean_cov(input_signal, input_type, E_val):
     len02 = len01 // E_val
 
     signal_t = input_signal[input_type == 1, :]
-    signal_nt = input_signal[input_type == 0, :]
+    signal_nt = input_signal[input_type == -1, :]
 
     signal_t_mean = np.zeros((E_val, len02))
     signal_nt_mean = np.zeros((E_val, len02))
